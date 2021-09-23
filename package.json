@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "@openzeppelin/contracts": "^3.2.0",
+    "ethereum-waffle": "^3.1.1"
+  },
+  "name": "ane-swap-contract",
+  "version": "1.0.0",
+  "description": "Solidity Contract of ane-swap",
+  "main": "index.js",
+  "repository": "https://github.com/Artnomics-org/ane-swap-contract.git",
+  "author": "Ayaka Neko <neko@ayaka.moe>",
+  "license": "MIT",
+  "scripts": {
+    "build": "waffle",
+    "flatten": "npx waffle flatten"
+  }
+}
